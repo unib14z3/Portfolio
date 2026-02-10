@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UNIB14Z3</title>
+    <style class="Navigation Bar">
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: beige;
+      }
+      .Navigation-Bar {
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .Navigation-Bar nav {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: aquamarine;
+      }
+      .Navigation-Bar div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 10px;
+      }
+      .Navigation-Bar div h1 {
+        margin-left: 10px;
+      }
+      .Navigation-Bar ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+      }
+      .Navigation-Bar ul li {
+        margin-right: 20px;
+      }
+      .Navigation-Bar ul li a {
+        text-decoration: none;
+        color: black;
+      }
+      .Navigation-Bar .logo {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        border-radius: 25%;
+      }
+    </style>
+
+    <style>
+      .container-card {
+        display: flex;
+        flex-direction: column;
+
+        max-height: 400px;
+        min-height: 200px;
+        aspect-ratio: 3.2361 / 2;
+        max-width: 75%;
+        margin: auto;
+
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        text-align: left;
+
+        background-color: beige;
+
+        border-radius: 10px;
+        box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .container-card h1 {
+        margin-bottom: 20px;
+      }
+      .container-card span {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+      }
+      .container-card .heading {
+        padding: 0;
+        margin: 0;
+        align-self: start;
+      }
+
+      .container-image {
+        position: relative;
+        padding: auto;
+        margin: 35px;
+        margin-left: 10px;
+      }
+      .container-image img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+        border-radius: 50%;
+      }
+      .container-image .top-img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translate(25%, 0%);
+      }
+
+      .container-card .content {
+        margin: 0px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .text {
+        color: black;
+        padding-left: 20px;
+      }
+
+      .button-main {
+        display: flex;
+        align-items: end;
+      }
+      .button-main button {
+        margin-left: 20px;
+        background-color: white;
+        border-color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Navigation-Bar">
+      <nav>
+        <div>
+          <img class="logo" src="placeholder.png" alt="Logo" />
+          <h1>Rishikesh Katare</h1>
+        </div>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">My Projects</a></li>
+          <li><a href="contact_me.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="container-card">
+      <span class="heading"><h1>I am ...</h1></span>
+
+      <span class="content">
+        <span class="container-image">
+          <img src="placeholder.png" alt="logo" class="bottom-img" />
+          <img src="placeholder.png" alt="my picture" class="top-img" />
+        </span>
+        <div class="text">
+          <h2>Rishikesh Katare</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+            vitae recusandae aut praesentium animi illum vero eligendi ducimus
+            assumenda repudiandae atque earum, cum in dolore nisi accusamus
+            magni optio minus.
+          </p>
+        </div>
+      </span>
+
+      <span class="button-main">
+        <a href="contact_me.html"><button>Connect with me</button></a>
+        <a href="about_me.html"><button>Who am I...</button></a>
+      </span>
+    </div>
+  </body>
+</html>
